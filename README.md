@@ -35,8 +35,8 @@
   * Sistema de archivos: EXT4, swap
 * Disco 2: 
   * Marca: Samsung
-  * Tipo: SSD
-  * Tamaño: 1TB
+  * Tipo: HDD
+  * Tamaño: 750GB
   * Particiones: 1
   * Sistema de archivos: EXT4
   
