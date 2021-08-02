@@ -4,7 +4,7 @@
 
 * Marca/modelo: System 76 Serval WS
 * Tipo: Notebook
-* Año adquisición: 2015
+* Año adquisición: 2018
 * Procesador:
   * Marca/Modelo: Intel Core i7-4790K
   * Velocidad Base: 4.00 GHz
