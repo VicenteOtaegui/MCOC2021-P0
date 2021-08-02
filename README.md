@@ -2,15 +2,15 @@
 
 # Mi computador principal
 
-* Marca/modelo: System 76 Serval WS
+* Marca/modelo: ASUS R510IU-DM023T
 * Tipo: Notebook
 * Año adquisición: 2018
 * Procesador:
-  * Marca/Modelo: Intel Core i7-4790K
-  * Velocidad Base: 4.00 GHz
-  * Velocidad Máxima: 4.40 GHz
+  * Marca/Modelo: AMD FX-9830P
+  * Velocidad Base: 3.00 GHz
+  * Velocidad Máxima: 3.70 GHz
   * Numero de núcleos: 4 
-  * Humero de hilos: 2
+  * Humero de hilos: 4
   * Arquitectura: x86_64
   * Set de instrucciones: Intel SSE4.1, Intel SSE4.2, Intel AVX2
 * Tamaño de las cachés del procesador
@@ -19,8 +19,8 @@
   * L2: 256KB
   * L3: 8192KB
 * Memoria 
-  * Total: 32 GB
-  * Tipo memoria: DDR3
+  * Total: 12 GB
+  * Tipo memoria: DDR4
   * Velocidad 1867 MHz
   * Numero de (SO)DIMM: 4
 * Tarjeta Gráfica
@@ -34,12 +34,6 @@
   * Particiones: 4
   * Sistema de archivos: EXT4, swap
 * Disco 2: 
-  * Marca: Samsung
-  * Tipo: SSD
-  * Tamaño: 1TB
-  * Particiones: 1
-  * Sistema de archivos: EXT4
-* Disco 3: 
   * Marca: Samsung
   * Tipo: SSD
   * Tamaño: 1TB
