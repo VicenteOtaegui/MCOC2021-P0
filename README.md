@@ -24,14 +24,14 @@
   * Velocidad 1867 MHz
   * Numero de (SO)DIMM: 4
 * Tarjeta Gráfica
-  * Marca / Modelo: Nvidia GeForce GTX 980M
+  * Marca / Modelo: AMD RADEON
   * Memoria dedicada: 8192 MB
   * Resolución: 1920 x 1080
 * Disco 1: 
-  * Marca: Samsung
+  * Marca: SK Hynix
   * Tipo: SSD
-  * Tamaño: 1TB
-  * Particiones: 4
+  * Tamaño: 128GB
+  * Particiones: 1
   * Sistema de archivos: EXT4, swap
 * Disco 2: 
   * Marca: Samsung
