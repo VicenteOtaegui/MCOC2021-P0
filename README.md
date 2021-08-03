@@ -40,9 +40,9 @@
   * Particiones: 1
   * Sistema de archivos: NTFS
   
-* Dirección MAC de la tarjeta wifi: 5C:E0:C5:D7:EE:48  F0-03-8C-D8-84-B1
-* Dirección IP (Interna, del router): 192.168.0.129
-* Dirección IP (Externa, del ISP): 190.45.122.34
+* Dirección MAC de la tarjeta wifi: F0:03:8C:D8:84:B1
+* Dirección IP (Interna, del router): 192.168.1.110
+* Dirección IP (Externa, del ISP): 190.161.68.7
 * Proveedor internet: VTR Banda Ancha S.A.
 
 
