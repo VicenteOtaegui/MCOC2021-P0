@@ -10,7 +10,7 @@
   * Velocidad Base: 3.00 GHz
   * Velocidad Máxima: 3.70 GHz
   * Numero de núcleos: 4 
-  * Humero de hilos: 4
+  * Numero de hilos: 4
   * Arquitectura: x86_64
   * Set de instrucciones: Intel SSE4.1, Intel SSE4.2, Intel AVX2
 * Tamaño de las cachés del procesador
