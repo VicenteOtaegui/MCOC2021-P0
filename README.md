@@ -12,7 +12,7 @@
   * Numero de núcleos: 4 
   * Numero de hilos: 4
   * Arquitectura: x86_64
-  * Set de instrucciones: FM4A
+  * Set de instrucciones: FMA4
 * Tamaño de las cachés del procesador
   * L1: 2 x 96 KB 3-way set associative shared instruction caches
         4 x 32 KB 8-way set associative data caches
