@@ -47,6 +47,7 @@
 
 # Desempeño MATMUL
 
+A continuación se muestra el gráfico de rendimiento de la funcion matmul:
 ![Desempeño codigo](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot.png)
 * **Preguntas:**
 * ¿Cómo difiere del gráfico del profesor/ayudante?
