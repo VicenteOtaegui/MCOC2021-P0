@@ -50,10 +50,10 @@
 * grafico:
 * **Preguntas:**
 * ¿Cómo difiere del gráfico del profesor/ayudante?
-  * R: El gáfico del enunciado logra correr una matriz de tamaño 10000 en aproximadamente 10 segundos, mientras que en mi caso lo maximo que llego a correr es una matriz de tamaño 8000 en aproximadamente 65 segundos. El comportamiento de la curva superior es similar. La curva de uso de memoria es casi identica. 
+  * R: El gráfico del profesor logra correr una matriz de tamaño 10000 en aproximadamente 10-20 segundos, mientras que en mi caso lo máximo que llego a correr es una matriz de tamaño 8000 en aproximadamente 65 segundos. El comportamiento de la curva superior es similar, es decir ambas poseen saltos aleatorios a medida que aumenta el tamaño N. La curva inferior es identica ya que el uso de memoria es el mismo independiente del computador y sus capacidades. Ademas esta la diferencia en memorias RAM.
 
 * ¿A qué se pueden deber las diferencias en cada corrida?
-  * R: A diversos factores, entre ellos el uso aparte que se le esta dando al computador, la temperatura que alcanza el equipo en cada corrida puede ir aumentando. 
+  * R: A diversos factores propios del computador usado, entre ellos el uso aparte que se le esta dando al computador (Chrome, jugar, etc), la temperatura que alcanza el equipo en cada corrida puede ir aumentando generando posibles diferencias entre las corridas y los tiempos de estas.
 
 * El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
   * R: Porque al aumentar el tamaño de la matriz, estos datos se deben ir guardando en memoria y este aumento es lineal, ya que solo se guardan los valores. En cambio al aumentar el tamaño las operaciones que debe hacer el computador no aumentan de manera lineal. Es por esto que las multplicaciones de matricez muy grandes demoran bastante.
