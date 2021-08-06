@@ -58,7 +58,7 @@
 * ¿Qué versión de python está usando?
   * R: Python 3.9.6
 * ¿Qué versión de numpy está usando?
-  * R: 
+  * R: NumPy 1.21.1
 * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen (screenshot) de su uso de procesador durante alguna corrida para confirmar.
   * R: 
 
