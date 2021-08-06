@@ -1,7 +1,7 @@
 import matplotlib.pylab as plt
 from psutil import virtual_memory
 
-# print (virtual_memory().total/(10**9))
+## print (virtual_memory().total/(10**9))
 
 Ns = []
 dts = []
