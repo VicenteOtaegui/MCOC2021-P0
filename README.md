@@ -48,14 +48,18 @@
 # Desempeño MATMUL
 
 * grafico:
-* Preguntas:
+* **Preguntas:**
 * ¿Cómo difiere del gráfico del profesor/ayudante?
   - R: El gáfico del enunciado logra correr una matriz de tamaño 10000 en aproximadamente 10 segundos, mientras que en mi caso lo maximo que llego a correr es una matriz de tamaño 8000 en aproximadamente 65 segundos. El comportamiento de la curva superior es similar. La curva de uso de memoria es casi identica. 
 * ¿A qué se pueden deber las diferencias en cada corrida?
+  - R:
 * El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
+  - R:
 * ¿Qué versión de python está usando?
+  - R:
 * ¿Qué versión de numpy está usando?
+  - R:
 * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen (screenshot) de su uso de procesador durante alguna corrida para confirmar.
-
+  - R:
 
 
