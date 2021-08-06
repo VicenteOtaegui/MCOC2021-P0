@@ -49,11 +49,11 @@ for i in range(10):
 		dts.append(dt)
 		mems.append(uso_memoria_total)
 
-		print (f"N = {N} dt = {dt} s _ uso_memoria_total= {uso_memoria_total} bytes _ flops = {N**3/dt} flops/s")
+		# print (f"N = {N} dt = {dt} s _ uso_memoria_total= {uso_memoria_total} bytes _ flops = {N**3/dt} flops/s")
 
 		fid.write(f"N = {N} dt = {dt} s _ uso_memoria_total= {uso_memoria_total} bytes \n" )
 	
-	print (f"iteración = {i}")
+	print (f"iteración = {i+1} lista")
 
 	fid.close()
 
