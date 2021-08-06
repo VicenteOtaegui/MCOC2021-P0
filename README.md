@@ -50,6 +50,7 @@
 * grafico:
 * Preguntas:
 * ¿Cómo difiere del gráfico del profesor/ayudante?
+** R: El gáfico del enunciado logra correr una matriz de tamaño 10000 en aproximadamente 10 segundos, mientras que en mi caso lo maximo que llego a correr es una matriz de    tamaño 8000 en aproximadamente 65 segundos. El comportamiento de la curva superior es similar. La curva de uso de memoria es casi identica. 
 * ¿A qué se pueden deber las diferencias en cada corrida?
 * El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
 * ¿Qué versión de python está usando?
