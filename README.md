@@ -12,7 +12,7 @@
   * Numero de núcleos: 8 
   * Numero de hilos: 16
   * Arquitectura: x86_64
-  * Set de instrucciones: FMA4
+  * Set de instrucciones: AMD64
 * Tamaño de las cachés del procesador
   * L1: 512 KB
   * L2: 4.0 MB
