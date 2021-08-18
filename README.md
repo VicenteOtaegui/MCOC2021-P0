@@ -2,41 +2,34 @@
 
 # Mi computador principal 
 
-* Marca/modelo: ASUS R510IU-DM023T 
+* Marca/modelo: HP OMEN 15-EN0002LA
 * Tipo: Notebook
-* Año adquisición: 2018
+* Año adquisición: 2021
 * Procesador:
-  * Marca/Modelo: AMD FX-9830P
-  * Velocidad Base: 3.00 GHz
-  * Velocidad Máxima: 3.70 GHz
-  * Numero de núcleos: 4 
-  * Numero de hilos: 4
+  * Marca/Modelo: AMD Ryzen 7 4800H
+  * Velocidad Base: 2.90 GHz
+  * Velocidad Máxima: 4.20 GHz
+  * Numero de núcleos: 8 
+  * Numero de hilos: 16
   * Arquitectura: x86_64
   * Set de instrucciones: FMA4
 * Tamaño de las cachés del procesador
-  * L1: 2 x 96 KB 3-way set associative shared instruction caches
-        4 x 32 KB 8-way set associative data caches
-  * L2: 2 x 1 MB 16-way set associative shared caches
-  * L3: None
+  * L1: 512 KB
+  * L2: 4.0 MB
+  * L3: 8.0 MB
 * Memoria 
-  * Total: 12 GB
+  * Total: 16 GB
   * Tipo memoria: DDR4
-  * Velocidad 2133 MHz
-  * Numero de (SO)DIMM: 4
+  * Velocidad 3200 MHz
+  * Numero de (SO)DIMM: 2
 * Tarjeta Gráfica
-  * Marca / Modelo: AMD RADEON RX 560 Series
-  * Memoria dedicada: 2048 MB
+  * Marca / Modelo: NVIDIA GeForce RTX 2060 
+  * Memoria dedicada: 6.0 GB
   * Resolución: 1920 x 1080
 * Disco 1: 
-  * Marca: SK Hynix
+  * Marca: Western Digital
   * Tipo: SSD
-  * Tamaño: 128GB
-  * Particiones: 1
-  * Sistema de archivos: NTFS
-* Disco 2: 
-  * Marca: Samsung
-  * Tipo: HDD
-  * Tamaño: 750GB
+  * Tamaño: 512 GB
   * Particiones: 1
   * Sistema de archivos: NTFS
   
