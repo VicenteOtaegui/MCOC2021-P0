@@ -105,7 +105,7 @@ En cuanto al uso de memoria RAM este oscilaba entre 5 a 7 GB para todos los caso
   * R: El método Scipy utiliza de soporte a los paquetes BLAS/LAPACK para compilar, los cuales mediante factoriación LU resuelven la inversa. El método Numpy va a depender de su instalación, para el caso Numpy funciona llamando a Scipy que luego hace la previamente explicado.
 
 ¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso? Justifique su comentario en base al uso de procesadores y memoria observado durante las corridas.
-  * R: El paralelismo indica que se pueden ejecutar tareas simultaneas en los distintos núcleos del procesador. Y la estructura de caché y su capacidad en memoria van a ser factores indicentes en la velocidad de procesamiento, ya que el acceso a memoria en cada nivel es considerablemente más rápido que por ejemplo acceder a datos de la RAM o del Disco Duro. Durante la corrida se muestran 16 CPU's trabajando en simultaneo al 100%. 
+  * R: El paralelismo indica que se pueden ejecutar tareas simultáneas en los distintos núcleos del procesador. Y la estructura de caché y su capacidad en memoria van a ser factores indicentes en la velocidad de procesamiento, ya que el acceso a memoria en cada nivel es considerablemente más rápido que por ejemplo acceder a datos de la RAM o del Disco Duro. Durante la corrida se muestran 16 CPU's trabajando en simultáneo al 100%. 
 
 Conclusiones: el método Numpy tiene limitaciones en cuanto al uso de datos que utiliza, por el otro lado Scipy no tuvo estos límites para los 4 casos pedidos. Utilizar overwrite = True fue beneficioso en todos los casos en cuanto al tiempo de inversión. 
 
