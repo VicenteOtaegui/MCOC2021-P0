@@ -66,7 +66,7 @@ A continuación se muestra el gráfico de rendimiento de la funcion matmul:
 
 # Desempeño de INV
 
-Para esta entrega se realizo un código para cada uno de los 12 casos pedidos. Cada código genera un archivo txt en donde se guarda la información correspondiente a 10 corridas del cálculo de la inversa de una matriz de tamaño N. Se utilizaron varios tamaños de N, en donde el máximo fue de 10000.
+Para esta entrega se realizó un código para cada uno de los 12 casos pedidos. Cada código genera un archivo txt en donde se guarda la información correspondiente a 10 corridas del cálculo de la inversa de una matriz de tamaño N. Se utilizaron varios tamaños de N, en donde el máximo fue de 10000.
 
 Se crearon 4 gráficos, cada uno representa un tipo de dato con sus 3 métodos de obtención de la inversa. 
 
