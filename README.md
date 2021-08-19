@@ -85,8 +85,7 @@ Caso single: Para el tipo de dato single, los 3 métodos logran correr el códig
 ![plot_double](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot_double.png)
 
 Caso double: Para el tipo de dato double, los 3 métodos logran correr el código. En cuanto a memoria se mantiene identica para los 3 casos. En cuanto al tiempo transcurrido, el método mas rapido fue numpy, seguido de Scipy con overwrite = True. Se observan el mismo comportamiento aleatorio que para el caso anterior en un rango espceficio de N para el método Numpy. 
-
-
+*
 
 ![plot_longdouble](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot_longdouble.png)
 
