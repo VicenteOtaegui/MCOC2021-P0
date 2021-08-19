@@ -70,15 +70,22 @@ Para esta entrega se realizo un codigo para cada uno de los 12 casos pedidos. Ca
 
 Se crearon 4 gráficos, cada uno representa un tipo de dato con sus 3 métodos de obtencion de la inversa. 
 
-
 ![plot_half](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot_half.png)
 
-Caso half: Para el tipo de dato half, el método numpy no logra correr el código, el procesador no es capaz de trabjar con un float16 ni tampoco le hace un "upgrade" a float 32. En cuanto a los casos del método Scipy, en cuanto a uso de memoria son identicos. En cuanto a tiempo transcurrido se ve una pequeña diferencia, en donde al utilizar overwrite = True, el método logra generar la inversa con mayor rapidez. Esta tendencia para todo el rango de tamaño N de la matriz. 
+Caso half: Para el tipo de dato half, el método numpy no logra correr el código, el procesador no es capaz de trabjar con un float16 ni tampoco le hace un "upgrade" a float 32. En cuanto a los casos del método Scipy, en uso de memoria son identicos. En cuanto a tiempo transcurrido se ve una pequeña diferencia, en donde al utilizar overwrite = True, el método logra generar la inversa con mayor rapidez. Esta tendencia se mantiene para todo el rango del tamaño N de la matriz. 
+
 
 ![plot_single](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot_single.png)
 
-Caso single: Para el tipo de dato single, los 3 metodos logran correr el codigo. En cuanto a memoria se mantiene identica para los 3 casos. 
+Caso single: Para el tipo de dato single, los 3 métodos logran correr el código. En cuanto a memoria se mantiene identica para los 3 casos. En cuanto al tiempo transcurrido, ambos métodos scipy se ven muy similares, sin embargo el método numpy destaca ya que para el rango del tamaño de matrix N entre 50 y 500 posee osicilaciones bruscas en cuanto al tiempo de inversión. En casos es mas rapido que Scipy y en casos es más lento. Ahora mirando el punto final donde N = 10000, se ve que el metodo mas rapido fue Scipy con overwrite = True. 
+
 
 ![plot_double](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot_double.png)
+
+Caso double: Para el tipo de dato double, los 3 métodos logran correr el código. En cuanto a memoria se mantiene identica para los 3 casos. En cuanto al tiempo transcurrido, el método mas rapido fue numpy, seguido de Scipy con overwrite = True. Se observan el mismo comportamiento aleatorio que para el caso anterior en un rango espceficio de N para el método Numpy. 
+
+
 ![plot_longdouble](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot_longdouble.png)
+
+Caso longdouble: Para el tipo de dato longdouble, el método numpy no logra correr el código. En cuanto a los casos del método Scipy se nota una mayor rapidez para el caso overwrite = True.
 
