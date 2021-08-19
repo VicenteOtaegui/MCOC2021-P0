@@ -107,13 +107,15 @@ Para el caso de matriz con N = 10000 se tienen los siguientes valores de bytes u
 * Data Type "Single":     800000000 bytes 
 * Data Type "Double":     1600000000 bytes
 * Data Type "Longdouble": 1600000000 bytes
-* Aqui se nota como el dato longdouble fue descendido automaticamente por el computador a double. 
+Aqui se nota como el dato longdouble fue descendido automaticamente por el computador a double. 
    
+**Preguntas**
+
 ¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)? Justifique claramente su respuesta. 
   * R: El método Scipy utiliza de soporte a los paquetes BLAS/LAPACK para compilar, los cuales mediante factoriación LU resuelven la inversa. El método Numpy va a depender de su instalación, para el caso Numpy funciona llamando a Scipy que luego hace la previamente explicado.
 
 ¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso? Justifique su comentario en base al uso de procesadores y memoria observado durante las corridas.
   * R: El paralelismo indica que se pueden ejecutar tareas simultáneas en los distintos núcleos del procesador. Y la estructura de caché y su capacidad en memoria van a ser factores indicentes en la velocidad de procesamiento, ya que el acceso a memoria en cada nivel es considerablemente más rápido que por ejemplo acceder a datos de la RAM o del Disco Duro. Durante la corrida se muestran 16 CPU's trabajando en simultáneo al 100%. 
 
-Conclusiones: el método Numpy tiene limitaciones en cuanto al uso de datos que utiliza, por el otro lado Scipy no tuvo estos límites para los 4 casos pedidos. Utilizar overwrite = True fue beneficioso en todos los casos en cuanto al tiempo de inversión. 
+**Conclusiones**: el método Numpy tiene limitaciones en cuanto al uso de datos que utiliza, por el otro lado Scipy no tuvo estos límites para los 4 casos pedidos. Utilizar overwrite = True fue beneficioso en todos los casos en cuanto al tiempo de inversión. 
 
