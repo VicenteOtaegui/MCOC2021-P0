@@ -75,3 +75,5 @@ Se crearon 4 gráficos, cada uno representa un tipo de dato con sus 3 métodos d
 ![plot_single](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot_single.png)
 ![plot_double](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot_double.png)
 ![plot_longdouble](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot_longdouble.png)
+
+Caso half: Para el tipo de dato half, el método numpy no logra correr el código, el procesador no es capaz de trabjar con un float16 ni tampoco le hace un "upgrade" a float 32. En cuanto a los casos del método Scipy, en cuanto a uso de memoria son identicos. En cuanto a tiempo transcurrido se ve una pequeña diferencia, en donde al utilizar overwrite = True, el método logra generar la inversa con mayor rapidez. Esta tendencia para todo el rango de tamaño N de la matriz. 
