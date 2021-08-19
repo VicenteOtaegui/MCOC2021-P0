@@ -102,11 +102,12 @@ En cuanto al uso de memoria RAM este oscilaba entre 5 a 7 GB para todos los caso
    
 **Tamaños de Memoria**   
 
-Para el caso de matriz con N = 10000 se tienen los siguientes valores de bytes utilziados en memoria para cada tipo de dato:
+Para el caso de matriz con N = 10000 se tienen los siguientes valores de bytes utilizados en memoria para cada tipo de dato:
 * Data Type "Half":       600000000 bytes
 * Data Type "Single":     800000000 bytes 
 * Data Type "Double":     1600000000 bytes
 * Data Type "Longdouble": 1600000000 bytes
+Aqui se nota como el dato longdouble fue descendido automaticamente por el computador a double. 
    
 ¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)? Justifique claramente su respuesta. 
   * R: El método Scipy utiliza de soporte a los paquetes BLAS/LAPACK para compilar, los cuales mediante factoriación LU resuelven la inversa. El método Numpy va a depender de su instalación, para el caso Numpy funciona llamando a Scipy que luego hace la previamente explicado.
