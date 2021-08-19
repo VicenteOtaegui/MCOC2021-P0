@@ -107,7 +107,8 @@ Para el caso de matriz con N = 10000 se tienen los siguientes valores de bytes u
 * Data Type "Single":     800000000 bytes 
 * Data Type "Double":     1600000000 bytes
 * Data Type "Longdouble": 1600000000 bytes
-Aqui se nota como el dato longdouble fue descendido automaticamente por el computador a double. 
+
+Aqui se nota como el dato longdouble fue descendido automáticamente por el computador a double, generando que su uso en memoria sea menor y su tiempo de procesamiento mayor.
    
 **Preguntas**
 
