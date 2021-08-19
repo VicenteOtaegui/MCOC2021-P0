@@ -92,11 +92,14 @@ Se crearon 4 gráficos, cada uno representa un tipo de dato con sus 3 métodos d
 **Monitoreo del Computador**
 
 En cuanto al uso de CPU, se ve como al correr el codigo se utiliza entre el 85% y el 100% de esta. Esto se repite para todos los casos.
+
    ![CPU caso1_single](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Screenshot%20CPU%20caso1_single.png)
    ![CPU caso1_double](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Screenshot%20CPU%20caso1_double.png)
 
 En cuanto al uso de memoria RAM este oscilaba entre 5 a 7 GB para todos los casos
+
    ![RAM caso3_half](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Screenshot%20RAM%20caso3_half.png)
+   
    
 ¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)? Justifique claramente su respuesta. 
   * R: fsdfdsf
@@ -104,5 +107,5 @@ En cuanto al uso de memoria RAM este oscilaba entre 5 a 7 GB para todos los caso
 ¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso? Justifique su comentario en base al uso de procesadores y memoria observado durante las corridas.
   * R: fsdfdsf
 
-* Conclusiones: el método numpy tiene limitaciones en cuanto al uso de datos que utiliza, por el otro lado Scipy no tuvo estos limites para los 4 casos pedidos. Utilizar overwrite = True fue beneficioso en todos los casos en cuanto al tiempo de inversión. 
+Conclusiones: el método numpy tiene limitaciones en cuanto al uso de datos que utiliza, por el otro lado Scipy no tuvo estos limites para los 4 casos pedidos. Utilizar overwrite = True fue beneficioso en todos los casos en cuanto al tiempo de inversión. 
 
