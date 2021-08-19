@@ -80,7 +80,7 @@ Se crearon 4 gráficos, cada uno representa un tipo de dato con sus 3 métodos d
    ![plot_single](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot_single.png)
 
 
-* Caso double: Para el tipo de dato double, los 3 métodos logran correr el código. En cuanto a memoria se mantiene idéntica para los 3 casos. En cuanto al tiempo transcurrido, el método más rápido fue numpy, seguido de Scipy con overwrite = True. Se observan el mismo comportamiento aleatorio que para el caso anterior en un rango específico de N para el método Numpy. 
+* Caso double: Para el tipo de dato double, los 3 métodos logran correr el código. En cuanto a memoria se mantiene idéntica para los 3 casos. En cuanto al tiempo transcurrido, el método más rápido fue Numpy, seguido de Scipy con overwrite = True. Se observan el mismo comportamiento aleatorio que para el caso anterior en un rango específico de N para el método Numpy. 
 
    ![plot_double](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/plot_double.png)
 
