@@ -136,7 +136,7 @@ Para el problema de encontrar valores y vectores propios se utilizó la funcion 
 
 ssss
 
-![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Solve%20Float64.png)
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Eigh%20Float64.png)
 
 **Rendimiento**
 
