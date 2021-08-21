@@ -120,7 +120,17 @@ Aqui se nota como el dato longdouble fue descendido automáticamente por el comp
 
 **Conclusiones**: el método Numpy tiene limitaciones en cuanto al uso de datos que utiliza, por el otro lado Scipy no tuvo estos límites para los 4 casos pedidos. Utilizar overwrite = True fue beneficioso en todos los casos en cuanto al tiempo de inversión. 
 
-# Entrega 4 Desempeño de SOLVE y EIGH
+# Entrega 4: Desempeño de SOLVE y EIGH
+
+* Luego de ver los gráficos generados para le funcion SOLVE, existe una notoria diferencia en los tiempos de procesamiento. Para el caso del tipo de dato float32 se obtuvo que el método más rapido fue utilizando la funcion scipy.linalg.solve con assume_a="pos", y por el contrario el método en promedio mas lento fue el proceso manual de obtener la inversa mediante scipy y luego multiplicarla por la matriz b. Mirando el gráfico se ven saltos para el caso scipy.linalg.solve con assume_a="sym", mienstras que para los demas metodos se nota una mayor homogeneidad en los tiempos de resolución.
+
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Solve%20Float32.png)
+
+* Para el caso SOLVE pero con tipo de dato float64 se observa el mismo comportamiento descrito anteriormente, pero ahora con una mayor notoreidad en la lentidud del metodo x=inv(A)xb en comparación a los demás. 
+
+* 
+
+
 
 
 
