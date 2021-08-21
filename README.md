@@ -122,15 +122,15 @@ Aqui se nota como el dato longdouble fue descendido automáticamente por el comp
 
 # Entrega 4: Desempeño de SOLVE y EIGH
 
-Luego de ver los gráficos generados para le funcion SOLVE, existe una notoria diferencia en los tiempos de procesamiento. Para el caso del tipo de dato float32 se obtuvo que el método más rapido fue utilizando la funcion scipy.linalg.solve con assume_a="pos", y por el contrario el método en promedio más lento fue el proceso manual de obtener la inversa mediante scipy y luego multiplicarla por la matriz b. Mirando el gráfico se ven saltos aleatorios para el caso scipy.linalg.solve con assume_a="sym", mientras que para los demás métodos se nota una mayor homogeneidad en los tiempos de resolución.
+Luego de ver los gráficos generados para le funcion SOLVE, existe una notoria diferencia en los tiempos de procesamiento. Para el caso del tipo de dato float32 se obtuvo que el método más rapido fue utilizando la funcion scipy.linalg.solve con assume_a="pos", y por el contrario el método en promedio más lento fue el proceso manual de obtener la inversa mediante scipy y luego multiplicarla por la matriz b. Mirando el gráfico se ven saltos aleatorios para el caso scipy.linalg.solve con assume_a="sym", mientras que para los demás métodos se nota una mayor homogeneidad en los tiempos de resolución. Para los tamaños N de matriz entre 10 y 1000 el método scipy.linalg.solve con assume_a="pos" es superior en rapidez al resto por una gran diferencia. 
 
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Solve%20Float32.png)
 
-Para el caso SOLVE pero con tipo de dato float64 se observa el mismo comportamiento descrito anteriormente, pero ahora con una mayor notoreidad en la lentidud del metodo x=inv(A)xb en comparación a los demás. 
+Para el caso SOLVE pero con tipo de dato float64 se observa el mismo comportamiento descrito anteriormente, pero ahora con una mayor notoreidad en la lentidud del método x=inv(A)xb en comparación a los demás. Los tiempos aumentaron para todos los casos debido a usar un tipo de dato que utiliza más memoria, y por ende toma más tiempo de procesamiento.
 
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Solve%20Float64.png)
 
-Para el problema de encontrar valores y vectores propios se utilizó la funcion scipy.linalg.eigh con diferentes atributos en cada caso. 
+Para el problema de encontrar valores y vectores propios se utilizó la funcion scipy.linalg.eigh con diferentes atributos en cada caso. Para el tipo de dato float32 los casos más rápidos fueron el caso III con overwrite_a=False y con overwrite_a=True. El caso eigh por defecto viene despues muy cercano. Luego los metodos que poseen una considerable diferencia en tiempo fue el caso V. Se puede observar un gran salto de tiempos de procesamiento entre un tamaño N de matriz de 20 y N de 50. 
 
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Eigh%20Float32.png)
 
