@@ -144,5 +144,24 @@ En cuanto al rendimiento para los casos A de resolver un sistema lineal, la CPU 
 
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Screenshot%20CPU%20Solve_%20caso2_float64.png)
 
+Para el caso B del método EIGH se observó un comportamiento distinto y complejo. A continuación se muestra la CPU trabajando para el caso 1 de eigh para float32, Se ven saltos en cuanto al uso de procesador, no siempre estuvo trabajando a su máxima capacidad. 
+
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Screenshot%20CPU%20Eigh_caso1_float32.png)
+
+Para el caso II de Eigh con overwrite_a=True y float32 se obtuvo el siguiente rendimiento, en el cual el procesador oscilaba entre un 5% y 20% de su capacidad. Y se observa que algunos nucleos a ratos daban saltos que los demas no hacian.
+
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Screenshot%20CPU%20Eigh_caso2_overwrite_True_float32.png)
+
+El caso III de Eigh overwrite_a=False y float32 tuvo oscilaciones bruscas entre el 20% y 100% de la capacidad de la CPU. Para el caso IV se repite lo mismo. 
+
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Screenshot%20CPU%20Eigh_caso3_overwrite_False_float32.png)
+
+El caso V de Eigh tuvo un comportamiento peculiar. Se mantuvo a ratos en capacidades muy bajas con algunos saltos de vez en cuando al operar las matrices de mayor tamaño. Su uso no fue parejo en todos los procesadores como lo fue en los casos anteriores. A continuacion se muestra el monitoreo para el caso V con overwrite=False para float64, seguido del caso V con overwrite=True para float32.
+
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Screenshot%20CPU%20Eigh_caso5_overwrite_False_float64.png)
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Screenshot%20CPU%20Eigh_caso5_overwrite_True_float32.png)
+
+En cuanto al uso de RAM en todos los casos oscilaba entre 5GB y 8 GB, por lo que no fue un factor determinante ni limitante para correr el programa. 
+
 
 
