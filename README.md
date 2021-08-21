@@ -140,7 +140,7 @@ Para EIGH con tipo de dato float64 se repite el mismo análisis y comportamiento
 
 **Rendimiento**
 
-En cuanto al rendimiento para los casos A de resolver un sistema lineal, la CPU trabajo constantemente a su máxima capacidad durante las corridas. A continuación se muestra una captura del monitoreo: 
+En cuanto al rendimiento para los casos A de resolver un sistema lineal, la CPU trabajo constantemente a su máxima capacidad durante las corridas para todos los métodos. A continuación se muestra una captura del monitoreo: 
 
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Screenshot%20CPU%20Solve_%20caso2_float64.png)
 
