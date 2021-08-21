@@ -126,7 +126,7 @@ Luego de ver los gráficos generados para la funcion SOLVE, existe una notoria d
 
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Solve%20Float32.png)
 
-Para el caso SOLVE pero con tipo de dato float64 se observa el mismo comportamiento descrito anteriormente, pero ahora con una mayor notoreidad en la lentidud del método x=inv(A)xb en comparación a los demás. Los tiempos aumentaron para todos los casos debido a usar un tipo de dato que utiliza más memoria, y por ende toma más tiempo de procesamiento.
+Para el caso SOLVE pero con tipo de dato float64 se observa el mismo comportamiento descrito anteriormente, pero ahora con una mayor notoriedad en la lentidud del método x=inv(A)xb en comparación a los demás. Los tiempos aumentaron para todos los casos debido a usar un tipo de dato que utiliza más memoria, y por ende toma más tiempo de procesamiento.
 
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Solve%20Float64.png)
 
