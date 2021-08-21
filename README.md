@@ -122,13 +122,23 @@ Aqui se nota como el dato longdouble fue descendido automáticamente por el comp
 
 # Entrega 4: Desempeño de SOLVE y EIGH
 
-* Luego de ver los gráficos generados para le funcion SOLVE, existe una notoria diferencia en los tiempos de procesamiento. Para el caso del tipo de dato float32 se obtuvo que el método más rapido fue utilizando la funcion scipy.linalg.solve con assume_a="pos", y por el contrario el método en promedio mas lento fue el proceso manual de obtener la inversa mediante scipy y luego multiplicarla por la matriz b. Mirando el gráfico se ven saltos para el caso scipy.linalg.solve con assume_a="sym", mienstras que para los demas metodos se nota una mayor homogeneidad en los tiempos de resolución.
+Luego de ver los gráficos generados para le funcion SOLVE, existe una notoria diferencia en los tiempos de procesamiento. Para el caso del tipo de dato float32 se obtuvo que el método más rapido fue utilizando la funcion scipy.linalg.solve con assume_a="pos", y por el contrario el método en promedio más lento fue el proceso manual de obtener la inversa mediante scipy y luego multiplicarla por la matriz b. Mirando el gráfico se ven saltos aleatorios para el caso scipy.linalg.solve con assume_a="sym", mientras que para los demás métodos se nota una mayor homogeneidad en los tiempos de resolución.
 
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Solve%20Float32.png)
 
-* Para el caso SOLVE pero con tipo de dato float64 se observa el mismo comportamiento descrito anteriormente, pero ahora con una mayor notoreidad en la lentidud del metodo x=inv(A)xb en comparación a los demás. 
+Para el caso SOLVE pero con tipo de dato float64 se observa el mismo comportamiento descrito anteriormente, pero ahora con una mayor notoreidad en la lentidud del metodo x=inv(A)xb en comparación a los demás. 
 
-* 
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Solve%20Float64.png)
+
+Para el problema de encontrar valores y vectores propios se utilizó la funcion scipy.linalg.eigh con diferentes atributos en cada caso. 
+
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Eigh%20Float32.png)
+
+ssss
+
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Solve%20Float64.png)
+
+**Rendimiento**
 
 
 
