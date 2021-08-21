@@ -120,3 +120,7 @@ Aqui se nota como el dato longdouble fue descendido automáticamente por el comp
 
 **Conclusiones**: el método Numpy tiene limitaciones en cuanto al uso de datos que utiliza, por el otro lado Scipy no tuvo estos límites para los 4 casos pedidos. Utilizar overwrite = True fue beneficioso en todos los casos en cuanto al tiempo de inversión. 
 
+# Entrega 4 Desempeño de SOLVE y EIGH
+
+
+
