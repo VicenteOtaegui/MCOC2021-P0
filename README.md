@@ -130,7 +130,7 @@ Para el caso SOLVE pero con tipo de dato float64 se observa el mismo comportamie
 
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Solve%20Float64.png)
 
-Para el problema de encontrar valores y vectores propios se utilizó la funcion scipy.linalg.eigh con diferentes atributos en cada caso. Para el tipo de dato float32 los casos más rápidos fueron el caso III con overwrite_a=False y con overwrite_a=True. El caso eigh por defecto viene despues muy cercano. Luego los metodos que poseen una considerable diferencia en tiempo fue el caso V. Se puede observar un gran salto de tiempos de procesamiento entre un tamaño N de matriz de 20 y N de 50. 
+Para el problema de encontrar valores y vectores propios se utilizó la funcion scipy.linalg.eigh con diferentes atributos en cada caso. Para el tipo de dato float32 los casos más rápidos fueron el caso III con overwrite_a=False y con overwrite_a=True. El caso eigh por defecto viene despues muy cercano. Luego el método que posee una considerable diferencia en tiempo fue el caso V. Se puede observar un gran salto en los tiempos de procesamiento entre un tamaño N de matriz de 20 y N de 50 para todos los métodos
 
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%204/Plot%20Eigh%20Float32.png)
 
