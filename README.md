@@ -165,3 +165,13 @@ En cuanto al uso de RAM en todos los casos oscilaba entre 5GB y 8 GB, por lo que
 
 # Matrices dispersas y complejidad computacional
 
+A continuacion se muestran los graficos obtenidos para cada caso:
+
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%205/Entrega_P05_Gr%C3%A1fico_Matriz_Llena.png)
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%205/Entrega_P05_Gr%C3%A1fico_Matriz_Dispersa.png)
+
+Para obtener la matriz laplaciana en el caso de matrices llenas se utilizo el siguiente codigo:
+Para obtener la matriz laplaciana en el caso de matrices dispersas se utilizo el siguiente codigo:
+
+
+
