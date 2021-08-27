@@ -163,5 +163,5 @@ El caso V de Eigh tuvo un comportamiento peculiar. Se mantuvo a ratos en capacid
 
 En cuanto al uso de RAM en todos los casos oscilaba entre 5GB y 8 GB, por lo que no fue un factor determinante ni limitante para correr el programa. 
 
-
+# Matrices dispersas y complejidad computacional
 
