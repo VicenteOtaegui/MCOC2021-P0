@@ -183,6 +183,8 @@ def matriz_laplaciana_llena (N, dtype):
 				A[j,i] = -1
 	return (A)
 ```
+Los tiempos de ensamblaje son despreciables en comparacion a los tiempos de solución en este caso. El método para crear la matriz laplaciana no es el más optimizado pero para el caso es más que suficiente, ya que el verdadero gasto computacional esta en la operación @ de solución. Mirando el gráfico para los tiempos de emsamblaje se observa que las corridas se asimilan a la curva verde de O(N^2), esto quiere decir que a medida que el tamaño de N se duplica su tiempo de ensamblaje se cuadriplica. Para el grafico de los tiempos de solución, las corridas se aproximan a la recta roja de O(N^3), lo que quiere decir que a medida que el tamaño de N se duplica, su tiempo de solución se octuplica. Es importante mencionar que se ignora el primer punto de las corridas en donde los tiempos son elevados, estos tiempos no son representativos de la real capacidad de procesamiento del computador y son debido a otros factores que influyen al comenzar a correr el programa.
+
 
 Para obtener la matriz laplaciana en el caso de matrices dispersas se utilizo el siguiente codigo:
 
@@ -191,5 +193,5 @@ def matriz_laplaciana_dispersa(N,dtype):
 	return 2*sparse.eye(N,dtype=dtype) - sparse.eye(N,N,-1,dtype=dtype) - sparse.eye(N,N,1,dtype=dtype)
 
 ```
-
+En este caso se utilizó un código de ensamblaje de la laplaciana mediante el método sparse, con el cual se obtuvieron resultados excelentes en cuanto a tiempo, por lo que su pudo aumentar brutalmente el numero N maximo del tamaño de matriz. Mirando el gráfico de ensamblaje se ve como para valores de N entre 10 y 10000 los tiempos se mantienen constantes. Luego se ve un incremento en la pendiente, este comportamiento esta entre la recta amarilla de O(N^1) y al recta verde de O(N^2), lo que indica que al duplicar N el tiempo de ensamblaje crece en un factor entre 2 y 4. Para el caso de los tiempos de solución estos se mantienen constantes para valores de N hasta 2000 aproximadamente, luego su pendiente incrementa de la misma manera que para el caso de los tiempos de ensamblaje.
 
