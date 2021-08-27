@@ -171,6 +171,19 @@ A continuacion se muestran los graficos obtenidos para cada caso:
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%205/Entrega_P05_Gr%C3%A1fico_Matriz_Dispersa.png)
 
 Para obtener la matriz laplaciana en el caso de matrices llenas se utilizo el siguiente codigo:
+
+'''
+def matriz_laplaciana_llena (N, dtype):
+	A = zeros(((N,N)) ,dtype = dtype)
+	for i in range (N):
+		A[i,i] = 2
+		for j in range (max((0,i-2)),i):
+			if abs(i-j) == 1:
+				A[i,j] = -1
+				A[j,i] = -1
+	return (A)
+'''
+
 Para obtener la matriz laplaciana en el caso de matrices dispersas se utilizo el siguiente codigo:
 
 
