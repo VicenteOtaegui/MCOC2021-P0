@@ -170,6 +170,8 @@ A continuacion se muestran los gráficos obtenidos para cada caso:
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%205/Entrega_P05_Gr%C3%A1fico_Matriz_Llena.png)
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%205/Entrega_P05_Gr%C3%A1fico_Matriz_Dispersa.png)
 
+**Caso Matriz LLENA**
+
 Para obtener la matriz laplaciana en el caso de matrices llenas se utilizó el siguiente codigo:
 
 ```
@@ -185,6 +187,7 @@ def matriz_laplaciana_llena (N, dtype):
 ```
 Los tiempos de ensamblaje son despreciables en comparación a los tiempos de solución en este caso. El método para crear la matriz laplaciana no es el más optimizado pero para el caso es más que suficiente, ya que el verdadero gasto computacional esta en la operación @ de solución. Mirando el gráfico para los tiempos de ensamblaje se observa que las corridas se asimilan a la curva verde de O(N^2), esto quiere decir que a medida que el tamaño de N se duplica, su tiempo de ensamblaje se cuadriplica. Para el gráfico de los tiempos de solución, las corridas se aproximan a la recta roja de O(N^3), lo que quiere decir que a medida que el tamaño de N se duplica, su tiempo de solución se octuplica. Es importante mencionar que se ignora el primer punto de las corridas en donde los tiempos son elevados, estos tiempos no son representativos de la real capacidad de procesamiento del computador y son debido a otros factores que influyen al comenzar a correr el programa.
 
+**Caso Matriz DISPERSA**
 
 Para obtener la matriz laplaciana en el caso de matrices dispersas se utilizo el siguiente codigo:
 
