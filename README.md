@@ -172,7 +172,7 @@ A continuacion se muestran los graficos obtenidos para cada caso:
 
 Para obtener la matriz laplaciana en el caso de matrices llenas se utilizo el siguiente codigo:
 
-'''
+```
 def matriz_laplaciana_llena (N, dtype):
 	A = zeros(((N,N)) ,dtype = dtype)
 	for i in range (N):
@@ -182,7 +182,7 @@ def matriz_laplaciana_llena (N, dtype):
 				A[i,j] = -1
 				A[j,i] = -1
 	return (A)
-'''
+```
 
 Para obtener la matriz laplaciana en el caso de matrices dispersas se utilizo el siguiente codigo:
 
