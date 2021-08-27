@@ -174,7 +174,7 @@ A continuación se muestran los gráficos obtenidos para cada caso:
 
 Para obtener la matriz laplaciana en el caso de matrices llenas se utilizó el siguiente codigo:
 
-```
+```python
 def matriz_laplaciana_llena (N, dtype):
 	A = zeros(((N,N)) ,dtype = dtype)
 	for i in range (N):
@@ -191,7 +191,7 @@ Los tiempos de ensamblaje son despreciables en comparación a los tiempos de sol
 
 Para obtener la matriz laplaciana en el caso de matrices dispersas se utilizo el siguiente codigo:
 
-```
+``` python
 def matriz_laplaciana_dispersa(N,dtype):
 	return 2*sparse.eye(N,dtype=dtype) - sparse.eye(N,N,-1,dtype=dtype) - sparse.eye(N,N,1,dtype=dtype)
 
