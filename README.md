@@ -202,5 +202,32 @@ En este caso se utilizó un código de ensamblaje de la laplaciana mediante el m
 
 **2. Complejidad algorítmica de SOLVE**
 
+A continuación se muestran los gráficos obtenidos para cada caso:
+
+grafico 1
+grafico 2
+
+**Caso Matriz LLENA**
+
+Para obtener la matriz laplaciana en el caso de matrices llenas se utilizó el siguiente codigo:
+
+```python
+def laplaciana (N):
+	d = np.eye(N,N,1, dtype=float64)
+	return 2*np.eye(N,dtype=float64) - d - d.T
+```
+
+COMENTARIO
+
+**Caso Matriz DISPERSA**
+
+Para obtener la matriz laplaciana en el caso de matrices dispersas se utilizo el siguiente codigo:
+
+``` python
+def laplaciana (N):
+	d = sparse.eye(N,N,1, dtype=float64)
+	return 2*sparse.eye(N,dtype=float64) - d - d.T
+
+```
 
 **3. Complejidad algorítmica de INV**
