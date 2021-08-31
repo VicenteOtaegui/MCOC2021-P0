@@ -165,7 +165,7 @@ En cuanto al uso de RAM en todos los casos oscilaba entre 5GB y 8 GB, por lo que
 
 # Matrices dispersas y complejidad computacional
 
-**1.**
+**1. Complejidad algorítmica de MATMUL**
 
 A continuación se muestran los gráficos obtenidos para cada caso:
 
@@ -200,7 +200,7 @@ def matriz_laplaciana_dispersa(N,dtype):
 ```
 En este caso se utilizó un código de ensamblaje de la laplaciana mediante el método sparse, con el cual se obtuvieron resultados excelentes en cuanto a tiempo, por lo que se pudo aumentar brutalmente el número N máximo del tamaño de matriz. Mirando el gráfico de ensamblaje se ve como para valores de N entre 10 y 10000 los tiempos se mantienen constantes. Luego se ve un incremento en la pendiente, este comportamiento está entre la recta amarilla de O(N) y al recta verde de O(N^2), lo que indica que al duplicar N el tiempo de ensamblaje crece en un factor entre 2 y 4. Para el caso de los tiempos de solución estos se mantienen constantes para valores de N hasta 2000 aproximadamente, luego su pendiente incrementa de la misma manera que para el caso de los tiempos de ensamblaje. En el tramo final para los tiempos de solución se observa que las rectas tienden a comportarse asintóticamente con la recta verde de O(N^2) y se infiere que si N se aumentase más, el comportamiento tendería a las rectas roja y magenta. 
 
-**2. Complejidad algorítmica de SOLVE **
+**2. Complejidad algorítmica de SOLVE**
 
 
 **3. Complejidad algorítmica de INV**
