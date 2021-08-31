@@ -235,7 +235,7 @@ def laplaciana (N):
 
 COMENTARIOS
 
-*Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
-*¿Cual parece la complejidad asintótica (para N→∞)  para el ensamblado y solución en ambos casos y porqué?
-*¿Como afecta el tamaño de las matrices al comportamiento aparente?
-*¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
+* Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
+* ¿Cual parece la complejidad asintótica (para N→∞)  para el ensamblado y solución en ambos casos y porqué?
+* ¿Como afecta el tamaño de las matrices al comportamiento aparente?
+* ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
