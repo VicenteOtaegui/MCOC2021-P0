@@ -165,6 +165,8 @@ En cuanto al uso de RAM en todos los casos oscilaba entre 5GB y 8 GB, por lo que
 
 # Matrices dispersas y complejidad computacional
 
+* 1.
+
 A continuación se muestran los gráficos obtenidos para cada caso:
 
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%205/Entrega_P05_Gr%C3%A1fico_Matriz_Llena.png)
