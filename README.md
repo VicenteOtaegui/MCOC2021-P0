@@ -204,8 +204,9 @@ En este caso se utilizó un código de ensamblaje de la laplaciana mediante el m
 
 A continuación se muestran los gráficos obtenidos para cada caso:
 
-grafico 1
-grafico 2
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%206/plot_P06_SPSOLVE_Matriz_Llena.png)
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%206/plot_P06_SPSOLVE_Matriz_Dispersa.png)
+
 
 **Caso Matriz LLENA**
 
