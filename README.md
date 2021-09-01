@@ -239,9 +239,9 @@ Existe una brutal diferencia en los tamaños de N capaces de operar con matricez
 **3. Complejidad algorítmica de INV**
 
 
-COMENTARIOS
+A continuación se muestran los gráficos obtenidos para cada caso:
 
-* Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
-* ¿Cual parece la complejidad asintótica (para N→∞)  para el ensamblado y solución en ambos casos y porqué?
-* ¿Como afecta el tamaño de las matrices al comportamiento aparente?
-* ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%206/plot_P06_INV_Matriz_Llena.png)
+![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%206/plot_P06_INV_Matriz_Dispersa.png)
+
+**Caso Matriz LLENA**
