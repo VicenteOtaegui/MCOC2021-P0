@@ -218,7 +218,7 @@ def laplaciana (N):
 	return 2*np.eye(N,dtype=float64) - d - d.T
 ```
 
-COMENTARIO
+Los tiempos de ensamblaje son bastante menores que los de solución para este caso, por lo tanto el factor que tuvo la mayor influencia fue la resolución solve del sistema. El tiempo de emsamblaje posee corridas inestables para valores de N hasta 200, luego tienen a estabilizarse y pasar a tener un comportamiento asintotica a la curva O(N^3), y al final del tramo para valores entre 10000 y 20000 la curva tiene a asimilarse a O(N^4) aumentando considerablemente el tiempo que demora en ensamblarse. Con respecto a los tiempos de solución, las corridas se ven inestables para valores hasta N igual 20, pasando por un comportamiento entre las curvas amarilla y verde, donde luego para valores mayores a N = 2000 tiende a un comportamiento asintótica con la curva O(N^3). Para este caso el factor limitante fue el tiempo de corrida para la solucion, en donde la diferencia entre N = 10000 y N = 20000 fue de 8 veces, lo cual reafirma el comportamiento asintótica con la curva O(N^3).
 
 **Caso Matriz DISPERSA**
 
@@ -230,6 +230,11 @@ def laplaciana (N):
 	return 2*sparse.eye(N,dtype=float64) - d - d.T
 
 ```
+
+La función utilizada es extremadamente eficiente para el ensamblado de la matriz, esta tiene un comportamiento estable en todo su rango. Ademas posee un comportamiento lineal hasta N = 10000, donde luego se queda entre las curvas O(N) y O(N^2). Para los tiempos de solución se logró llegar a valores de N extremadamente altos, esto debido a la eficiencia de la función spsolve que trabaja con matrices dispersas. Las corridas fueron estables en todo su rango y su comportamiento se mantuvo entre las curvas O(N) y O(N^2). 
+
+Existe una brutal diferencia en los tamaños de N capaces de operar con matricez llenas y dispersas, esta gran diferencia se debe principalmente a la forma en que trabajan los metodos spsolve y linalg.solve, en donde le primero al usar matrices dispersas logra accelerar las operaciones. Aqui se nota la importancia de trabajar con datos lo mas eficientes posibles, logrando poder realizar operaciones de gran tamaño en bajos tiempos.
+
 
 **3. Complejidad algorítmica de INV**
 
