@@ -246,7 +246,7 @@ A continuación se muestran los gráficos obtenidos para cada caso:
 
 **Caso Matriz LLENA**
 
-* Se utiliza el mismo codigo que para el caso SOLVE. Los tiempos de emsamblaje poseen variaciones en sus corridas hasta N = 500, luego se estabilizan y tienden a comoportarse como la recta O(N^3). Sus tiempos de ensamblado son bastante menores a los de solución. Para los tiempos de solución las corridas se muestran bastante estables, donde al comienzo tienen un comportamiento similar a la recta O(N^2) y luego para valores de N mayores a 2000 se asimilan a la recta O(N^3). Aqui la limitante del valor de N máximo fue el tiempo de solución. 
+* Se utiliza el mismo codigo que para el caso SOLVE. Los tiempos de ensamblaje poseen variaciones en sus corridas hasta N = 500, luego se estabilizan y tienden a comportarse como la recta O(N^3). Sus tiempos de ensamblado son bastante menores a los de solución. Para los tiempos de solución las corridas se muestran bastante estables, donde al comienzo tienen un comportamiento similar a la recta O(N^2) y luego para valores de N mayores a 2000 se asimilan a la recta O(N^3). Aqui la limitante del valor de N máximo fue el tiempo de solución. 
 
 **Caso Matriz DISPERSA**
 
