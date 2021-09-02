@@ -245,3 +245,9 @@ A continuación se muestran los gráficos obtenidos para cada caso:
 ![](https://github.com/VicenteOtaegui/MCOC2021-P0/blob/main/Entrega%206/plot_P06_INV_Matriz_Dispersa.png)
 
 **Caso Matriz LLENA**
+
+Se utiliza el mismo codigo que para el caso SOLVE. 
+
+**Caso Matriz DISPERSA**
+
+Se utiliza el mismo codigo que para el caso SOLVE. 
