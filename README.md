@@ -222,7 +222,7 @@ def laplaciana (N):
 
 **Caso Matriz DISPERSA**
 
-Para obtener la matriz laplaciana en el caso de matrices dispersas se utilizo el siguiente codigo:
+* Para obtener la matriz laplaciana en el caso de matrices dispersas se utilizo el siguiente codigo:
 
 ``` python
 def laplaciana (N):
@@ -231,7 +231,7 @@ def laplaciana (N):
 
 ```
 
-La función utilizada es extremadamente eficiente para el ensamblado de la matriz, esta tiene un comportamiento estable en todo su rango. Ademas posee un comportamiento lineal hasta N = 10000, donde luego se queda entre las curvas O(N) y O(N^2). Para los tiempos de solución se logró llegar a valores de N extremadamente altos, esto debido a la eficiencia de la función spsolve que trabaja con matrices dispersas. Las corridas fueron estables en todo su rango y su comportamiento se mantuvo entre las curvas O(N) y O(N^2). 
+* La función utilizada es extremadamente eficiente para el ensamblado de la matriz, esta tiene un comportamiento estable en todo su rango. Ademas posee un comportamiento lineal hasta N = 10000, donde luego se queda entre las curvas O(N) y O(N^2). Para los tiempos de solución se logró llegar a valores de N extremadamente altos, esto debido a la eficiencia de la función spsolve que trabaja con matrices dispersas. Las corridas fueron estables en todo su rango y su comportamiento se mantuvo entre las curvas O(N) y O(N^2). 
 
 Existe una brutal diferencia en los tamaños de N capaces de operar con matricez llenas y dispersas, esta gran diferencia se debe principalmente a la forma en que trabajan los metodos spsolve y linalg.solve, en donde le primero al usar matrices dispersas logra accelerar las operaciones. Aqui se nota la importancia de trabajar con datos lo mas eficientes posibles, logrando poder realizar operaciones de gran tamaño en bajos tiempos.
 
@@ -246,10 +246,10 @@ A continuación se muestran los gráficos obtenidos para cada caso:
 
 **Caso Matriz LLENA**
 
-Se utiliza el mismo codigo que para el caso SOLVE. Los tiempos de emsamblaje poseen variaciones en sus corridas hasta N = 500, luego se estabilizan y tienden a comoportarse como la recta O(N^3). Sus tiempos de ensamblado son bastante menores a los de solución. Para los tiempos de solución las corridas se muestran bastante estables, donde al comienzo tienen un comportamiento similar a la recta O(N^2) y leugo para valores de N mayores a 2000 se asimilan a la recta O(N^3). Aqui la limitante del valor de N fue el tiempo de solución. 
+* Se utiliza el mismo codigo que para el caso SOLVE. Los tiempos de emsamblaje poseen variaciones en sus corridas hasta N = 500, luego se estabilizan y tienden a comoportarse como la recta O(N^3). Sus tiempos de ensamblado son bastante menores a los de solución. Para los tiempos de solución las corridas se muestran bastante estables, donde al comienzo tienen un comportamiento similar a la recta O(N^2) y leugo para valores de N mayores a 2000 se asimilan a la recta O(N^3). Aqui la limitante del valor de N fue el tiempo de solución. 
 
 **Caso Matriz DISPERSA**
 
-Se utiliza el mismo codigo que para el caso SOLVE. Los tiempos de ensamblaje se mantienen constantes para todos los valores de N, y se ven pequeñas inestabilidades en las diferentes corridas. Estos tiempos son muy pequeños y despreciables en comparación a los tiempos de solución. En cuanto a los tiempos de solución, estos se ven estables y tienen distintos comportamientos dependiendo del tamaño de N. Para valores entre 10 y 500 las corridas estan entre las curvas O(N) y O(N^2), luego para N entre 500 y 10000 las corridas estan entre las curvas O(N2) y O(N^3). Por ultimo para valores de N mayores se ve un comportamiento asintótico con la curva O(N^4). Este ultimo comportamiento es el causante de que el N maximo sea solo de 20000.
+* Se utiliza el mismo codigo que para el caso SOLVE. Los tiempos de ensamblaje se mantienen constantes para todos los valores de N, y se ven pequeñas inestabilidades en las diferentes corridas. Estos tiempos son muy pequeños y despreciables en comparación a los tiempos de solución. En cuanto a los tiempos de solución, estos se ven estables y tienen distintos comportamientos dependiendo del tamaño de N. Para valores entre 10 y 500 las corridas estan entre las curvas O(N) y O(N^2), luego para N entre 500 y 10000 las corridas estan entre las curvas O(N2) y O(N^3). Por ultimo para valores de N mayores se ve un comportamiento asintótico con la curva O(N^4). Este ultimo comportamiento es el causante de que el N maximo sea solo de 20000.
 
 Al comparar el caso de matriz llena con amtriz dispersa se nota una diferencia en la capacidad de N maximo de procesamiento, en donde para el caso de matricez llenas se llega hasta un N = 13000 y para las matrices dispersas se llega hasta N = 20000. No es una diferencia brutal, el metodo con matricez dispersas tiene ventajas, pero como se vió al llegar a valores de N = 20000 el método no tiene diferencias tan notorias. En cambio para el caso previo del rendimienot de la función solve, el metodo con matrices dispersas posee diferencias brutales, llegando a valores de N sobre los 10 millones.
