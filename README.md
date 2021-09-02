@@ -246,8 +246,10 @@ A continuación se muestran los gráficos obtenidos para cada caso:
 
 **Caso Matriz LLENA**
 
-Se utiliza el mismo codigo que para el caso SOLVE. 
+Se utiliza el mismo codigo que para el caso SOLVE. Los tiempos de emsamblaje poseen variaciones en sus corridas hasta N = 500, luego se estabilizan y tienden a comoportarse como la recta O(N^3). Sus tiempos de ensamblado son bastante menores a los de solución. Para los tiempos de solución las corridas se muestran bastante estables, donde al comienzo tienen un comportamiento similar a la recta O(N^2) y leugo para valores de N mayores a 2000 se asimilan a la recta O(N^3). Aqui la limitante del valor de N fue el tiempo de solución. 
 
 **Caso Matriz DISPERSA**
 
-Se utiliza el mismo codigo que para el caso SOLVE. 
+Se utiliza el mismo codigo que para el caso SOLVE. Los tiempos de ensamblaje se mantienen constantes para todos los valores de N, y se ven pequeñas inestabilidades en las diferentes corridas. Estos tiempos son muy pequeños y despreciables en comparación a los tiempos de solución. En cuanto a los tiempos de solución, estos se ven estables y tienen distintos comportamientos dependiendo del tamaño de N. Para valores entre 10 y 500 las corridas estan entre las curvas O(N) y O(N^2), luego para N entre 500 y 10000 las corridas estan entre las curvas O(N2) y O(N^3). Por ultimo para valores de N mayores se ve un comportamiento asintótico con la curva O(N^4). Este ultimo comportamiento es el causante de que el N maximo sea solo de 20000.
+
+Al comparar el caso de matriz llena con amtriz dispersa se nota una diferencia en la capacidad de N maximo de procesamiento, en donde para el caso de matricez llenas se llega hasta un N = 13000 y para las matrices dispersas se llega hasta N = 20000. No es una diferencia brutal, el metodo con matricez dispersas tiene ventajas, pero como se vió al llegar a valores de N = 20000 el método no tiene diferencias tan notorias. En cambio para el caso previo del rendimienot de la función solve, el metodo con matrices dispersas posee diferencias brutales, llegando a valores de N sobre los 10 millones.
