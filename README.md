@@ -233,7 +233,7 @@ def laplaciana (N):
 
 * La función utilizada es extremadamente eficiente para el ensamblado de la matriz, esta tiene un comportamiento estable en todo su rango. Ademas posee un comportamiento lineal hasta N = 10000, donde luego se queda entre las curvas O(N) y O(N^2). Para los tiempos de solución se logró llegar a valores de N extremadamente altos, esto debido a la eficiencia de la función spsolve que trabaja con matrices dispersas. Las corridas fueron estables en todo su rango y su comportamiento se mantuvo entre las curvas O(N) y O(N^2). 
 
-Existe una brutal diferencia en los tamaños de N capaces de operar con matricez llenas y dispersas, esta gran diferencia se debe principalmente a la forma en que trabajan los metodos spsolve y linalg.solve, en donde le primero al usar matrices dispersas logra accelerar las operaciones. Aqui se nota la importancia de trabajar con datos lo mas eficientes posibles, logrando poder realizar operaciones de gran tamaño en bajos tiempos.
+Existe una brutal diferencia en los tamaños de N capaces de operar con matrices llenas y dispersas, esta gran diferencia se debe principalmente a la forma en que trabajan los metodos spsolve y linalg.solve, en donde le primero al usar matrices dispersas logra accelerar las operaciones. Aqui se nota la importancia de trabajar con datos lo mas eficientes posibles, logrando poder realizar operaciones de gran tamaño en bajos tiempos.
 
 
 **3. Complejidad algorítmica de INV**
